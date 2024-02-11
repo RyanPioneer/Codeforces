@@ -29,7 +29,6 @@ using namespace std;
 
 void solve() {
     int a, b, n, q, res = 0;
-
     cin >> n;
     vector<vector<int>> edges(n + 1);
     vector<int> nums(n + 1, 0);
