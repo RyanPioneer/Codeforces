@@ -1,0 +1,7 @@
+
+n	cpp:S3776"TRefactor this function to reduce its Cognitive Complexity from 26 to the 25 allowed.(æ„şƒüÿÿÿÿ
+J	cpp:S1659"0Define each identifier in a dedicated statement.(ÎÖÊĞûÿÿÿÿ
+Ecpp:S872O",Reconsider this operator for 'bool' operand.(çüï¤şÿÿÿÿ
+I	cpp:S5820T"/Convert this integer literal to a bool literal.(¼½Ä™üÿÿÿÿ
+4	cpp:S4962U"Use the "nullptr" literal.(÷Âüÿÿÿÿ
+/	cpp:S4962V"Use the "nullptr" literal.(ŠøÅ¬
