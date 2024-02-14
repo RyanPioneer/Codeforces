@@ -25,28 +25,26 @@ using namespace std;
 
 #define SZ(X) ((int)(X).size())
 #define ll long long
-typedef pair<int, int> PII;
 
-const int MX = 2e5+2;
 
 void solve() {
-    int n;
+    int n, back = 0;
     cin >> n;
-    vector<vector<int>> adj_list(n);
-    unordered_map<ll, int> edge2idx;
-    for (int i = 1; i < n; ++i) {
-        int a, b;
-        cin >> a >> b;
-        adj_list[a].push_back(b);
-        adj_list[b].push_back(a);
-        ll hash = (ll) a * MX + b;
-        edge2idx[hash] = i;
+    vector<int> nums(n);
+    for (auto &i: nums) cin >> i;
+    if (n == 1) {
+        cout << 1 << endl;
+        return;
     }
-
-    vector<int> visited(n, 0);
-    function<void(int, int)> dfs = [&](int cur, int par) {
-
-    };
+    int mx = n - (nums[0] == n);
+    while (nums[back + 1] != mx) back++;
+    if (back == n - 2) back++;
+    int front = back - 1;
+    while (front > 0 && nums[front] > nums[0]) front--;
+    for (int i = back + 1; i < n; i++) cout << nums[i] << " ";
+    for (int i = back; i > front; i--) cout << nums[i] << " ";
+    for (int i = 0; i <= front; i++) cout << nums[i] << " ";
+    cout << endl;
 }
 
 
