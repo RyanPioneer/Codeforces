@@ -1,6 +1,8 @@
 /**
  * Source: is.gd/3OU1N8
  * Date: 2024/4/3
+ * Time: TLE
+ * Space:
  * Skill:
  * Constraints:
  *
@@ -34,19 +36,20 @@ void solve() {
     for (auto &i: nums) cin >> i;
     unordered_map<int, int> num2res, num2idx, num2left;
     for (int i = 0; i < n; i++) {
-        if (num2res.find(nums[i]) != num2res.end() && 1 + num2res[nums[i]] - (i - num2idx[nums[i]] - 1) > 1) {
-            num2res[nums[i]] = 1 + num2res[nums[i]] - (i - num2idx[nums[i]] - 1);
-            num2idx[nums[i]] = i;
+        int a = nums[i];
+        if (num2res.find(nums[i]) != num2res.end() && 1 + num2res[a] - (i - num2idx[a] - 1) > 1) {
+            num2res[a] = 1 + num2res[a] - (i - num2idx[a] - 1);
+            num2idx[a] = i;
         } else {
-            num2res[nums[i]] = 1;
-            num2idx[nums[i]] = i;
-            num2left[nums[i]] = i;
+            num2res[a] = 1;
+            num2idx[a] = i;
+            num2left[a] = i;
         }
-        if (num2res[nums[i]] > res) {
-            res = num2res[nums[i]];
-            left = num2left[nums[i]] + 1;
+        if (num2res[a] > res) {
+            res = num2res[a];
+            left = num2left[a] + 1;
             right = i + 1;
-            num = nums[i];
+            num = a;
         }
     }
     cout << num << " " << left << " " << right << endl;

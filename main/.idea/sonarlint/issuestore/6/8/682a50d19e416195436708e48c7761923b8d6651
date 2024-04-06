@@ -1,11 +1,3 @@
 
-v	cpp:S5276"Uimplicit conversion turns floating-point number into integer: 'double' to 'const int'(—ƒ…˜úÿÿÿÿ8ê«™¯Ú1
-\	cpp:S5416";"using" should be preferred to "typedef" for type aliasing.(¥éÆ©øÿÿÿÿ8†û¯Ú1
-Q	cpp:S1659&"0Define each identifier in a dedicated statement.(äöÍÖşÿÿÿÿ8ü«™¯Ú1
-_	cpp:S5825"CDefine the type with "typedef" or "using" instead of using a macro.(úÇŞ“8µúš¯Ú1
-t	cpp:S1186/"YAdd a nested comment explaining why this method is empty, or complete the implementation.(åˆû38íõ¢¯Ú1
-p	cpp:S1172/"URemove the unused parameter "cur", make it unnamed, or declare it "[[maybe_unused]]".(åˆû38íõ¢¯Ú1
-p	cpp:S1172/"URemove the unused parameter "par", make it unnamed, or declare it "[[maybe_unused]]".(åˆû38íõ¢¯Ú1
-P	cpp:S58206"/Convert this integer literal to a bool literal.(¼½Ä™üÿÿÿÿ8îõ¢¯Ú1
-;	cpp:S49627"Use the "nullptr" literal.(÷Âüÿÿÿÿ8îõ¢¯Ú1
-6	cpp:S49628"Use the "nullptr" literal.(ŠøÅ¬8îõ¢¯Ú1
+L	cpp:S1659"0Define each identifier in a dedicated statement.(¶ø¤¾8Øéˆ¡ê1
+L	cpp:S1659#"0Define each identifier in a dedicated statement.(Ï®¼Ğ8Øéˆ¡ê1
