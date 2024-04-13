@@ -20,6 +20,8 @@
 
 [817G Even-Odd XOR](https://codeforces.com/contest/1722/problem/G) (1500)
 
+[640G Special Permutation](https://codeforces.com/contest/1352/problem/G) (1600)
+
 
 
 ## Bit manipulation
@@ -48,6 +50,7 @@
 
 
 
+## Greedy
 
-
+[806G Good Key, Bad Key](https://codeforces.com/contest/1703/problem/G) (1600)
 

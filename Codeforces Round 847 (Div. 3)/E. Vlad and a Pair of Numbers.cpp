@@ -50,7 +50,6 @@ void solve() {
         a++;
         b++;
     }
-    cout << "a: " << a << "b: " << b << endl;
     if (x % 2 == 1 || a == 0 || b == 0 || a + b != 2 * x) {
         cout << -1 << endl;
     } else {
