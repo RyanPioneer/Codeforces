@@ -3,7 +3,7 @@
  * Date: 2024/4/13
  * Time:
  * Space:
- * Skill:
+ * Skill: Notice the constraint that 1 <= ai <= n
  * Constraints:
  *
  */
@@ -28,30 +28,26 @@
 #define ll long long
 using namespace std;
 
-const int MX = 63;
-
 
 void solve() {
-    int n, total = 0, res = 0;
+    int n, res = 0;
     cin >> n;
-    vector<int> a(n);
-    map<int, int> mp;
-    mp[0] = -1;
-    for (int i = 0; i < n; i++) {
-        cin >> a[i];
-        total += a[i];
-        mp[total] = i;
-    }
+    vector<int> a(n), cnt(n + 1, 0), isSpecial(n + 1, 0);
     for (auto &i: a) {
-        total = 0;
-        for (int j = 0; j < n; j++) {
-            total += a[j];
-            if (mp.find(total - i) != mp.end() && mp[total - i] < j - 1) {
-                res++;
-                break;
+        cin >> i;
+        cnt[i]++;
+    }
+    for (int left = 0; left < n; ++left) {
+        int total = a[left];
+        for (int right = left + 1; right < n; ++right) {
+            total += a[right];
+            if (total > n) break;
+            if (cnt[total] >= 1) {
+                isSpecial[total] = 1;
             }
         }
     }
+    for (int i = 1; i <= n; ++i) res += isSpecial[i] * cnt[i];
     cout << res << endl;
 }
 
