@@ -12,6 +12,8 @@
 
 [903E Block Sequence](https://codeforces.com/contest/1881/problem/E) (1500)
 
+[750F1 Korney Korneevich and XOR (easy version)](https://codeforces.com/problemset/problem/1582/F1) (1800)
+
 
 
 ## Constructive algorithms
@@ -53,4 +55,10 @@
 ## Greedy
 
 [806G Good Key, Bad Key](https://codeforces.com/contest/1703/problem/G) (1600)
+
+
+
+## Games
+
+[666B Stoned Game](https://codeforces.com/problemset/problem/1396/B) (1800)
 
