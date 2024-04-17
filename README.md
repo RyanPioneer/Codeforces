@@ -32,6 +32,8 @@
 
 [817G Even-Odd XOR](https://codeforces.com/contest/1722/problem/G) (1500)
 
+[Codeforces Global Round 8D AND, OR and square sum](https://codeforces.com/contest/1368) (1700)
+
 
 
 ## Segment tree
@@ -61,4 +63,10 @@
 ## Games
 
 [666B Stoned Game](https://codeforces.com/problemset/problem/1396/B) (1800)
+
+
+
+## Math
+
+[Educational Codeforces Round 83D Count the Arrays](https://codeforces.com/contest/1312) (1700)
 

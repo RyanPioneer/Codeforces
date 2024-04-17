@@ -1,5 +1,5 @@
 /**
- * Source: is.gd/GCle9W
+ * Source: is.gd/XiO6gm
  * Date: 2024/4/17
  * Time:
  * Space:
@@ -28,30 +28,12 @@
 #define ll long long
 using namespace std;
 
-const int MX = 20;
+const ll MOD = 998244353;
 
 void solve() {
-    int n;
-    cin >> n;
-    ll cnt[MX] = {0}, res = 0;
-    for (int i = 0, j; i < n; i++) {
-        cin >> j;
-        for (int k = 0; k < MX; k++, j >>= 1) {
-            if ((j & 1)) {
-                cnt[k]++;
-            }
-        }
-    }
-    for (ll i = 0, tmp = 0; i < n; i++, tmp = 0) {
-        for (int j = 0; j < MX; j++) {
-            if (cnt[j]) {
-                tmp += 1 << j;
-                cnt[j]--;
-            }
-        }
-        res += tmp * tmp;
-    }
-    cout << res << endl;
+    int n, m;
+    cin >> n >> m;
+
 }
 
 int main() {
