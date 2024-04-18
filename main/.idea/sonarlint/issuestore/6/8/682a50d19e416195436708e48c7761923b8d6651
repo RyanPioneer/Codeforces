@@ -1,9 +1,8 @@
 
-r	cpp:S1659#"0Define each identifier in a dedicated statement.(‚÷„8’ïí¢í1J$b1edf336-713a-4131-8cc8-37a8b65ec4f1
-…	cpp:S5825"CDefine the type with "typedef" or "using" instead of using a macro.(úÇŞ“8É®¥¨í1J$10a18d07-3af8-4c3c-89c5-ff685e9f0b71
-ccpp:S818,"Uppercase the literal suffix.(¹¶Úáûÿÿÿÿ8«ë‘ªí1J$8e2f77e8-8ea0-4f8e-8a9b-2b2ed16f57d8
-=cpp:S818-"Uppercase the literal suffix.(Û×ùæøÿÿÿÿ8ÿŸ’ªí1
-=cpp:S818."Uppercase the literal suffix.(îÂÆíøÿÿÿÿ8ÿŸ’ªí1
-v	cpp:S5820>"/Convert this integer literal to a bool literal.(¼½Ä™üÿÿÿÿ8¨ïŒªí1J$f87a861f-3346-4769-ac3a-d5f522926381
-a	cpp:S4962?"Use the "nullptr" literal.(÷Âüÿÿÿÿ8¹›£í1J$3f8a9a05-9f45-4bbc-b600-1239ef67f5ec
-\	cpp:S4962@"Use the "nullptr" literal.(ŠøÅ¬8©ïŒªí1J$4313a3e8-a88d-41fb-992c-5035e9191d6d
+[	cpp:S1481 "unused variable 'MX'(ŠËÔÚûÿÿÿÿ8ä¹‰ï1J$ca13a22a-85e3-4ad1-9c11-744cdbe90f3a
+w	cpp:S1659#"0Define each identifier in a dedicated statement.(úéŠûÿÿÿÿ8É«®‰ï1J$e8adee22-f8df-47f9-a7ba-5669a0156201
+_	cpp:S5825"CDefine the type with "typedef" or "using" instead of using a macro.(úÇŞ“8¡š¾‰ï1
+p	cpp:S59553")Declare the variable "t" inside the loop.(Àš¬ğùÿÿÿÿ8¯ä¹‰ï1J$115fa683-47ee-4db4-99bb-7c606ceff437
+v	cpp:S5820/"/Convert this integer literal to a bool literal.(¼½Ä™üÿÿÿÿ8¨ïŒªí1J$87735461-eee1-481d-8dc9-b69e9e692cea
+a	cpp:S49620"Use the "nullptr" literal.(÷Âüÿÿÿÿ8¹›£í1J$d5c48fe3-0555-4db7-846e-c61dfe833301
+\	cpp:S49621"Use the "nullptr" literal.(ŠøÅ¬8©ïŒªí1J$12e07d1a-de73-49dd-af2b-3910ff718623

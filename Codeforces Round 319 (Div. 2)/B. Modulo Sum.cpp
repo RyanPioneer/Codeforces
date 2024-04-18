@@ -1,6 +1,6 @@
 /**
- * Source: is.gd/yJSrnx
- * Date: 2024/4/13
+ * Source: is.gd/EkOvpM
+ * Date: 2024/4/18
  * Time:
  * Space:
  * Skill:
@@ -28,19 +28,14 @@
 #define ll long long
 using namespace std;
 
-
-const int MX = 30;
+const int MX = 510;
 
 void solve() {
-    ll r, g, b;
-    cin >> r >> g >> b;
-    if (b >= r && b >= g) {
-        swap(r, b);
-    } else if (g >= r && g >= b) {
-        swap(r, g);
-    }
-    if (r > (g + b) * 2) cout << (g + b) << endl;
-    else cout << (r + g + b) / 3 << endl;
+    int n, m;
+    cin >> n >> m;
+    vector<int> a(n);
+    for (auto &i: a) cin >> i;
+
 }
 
 int main() {

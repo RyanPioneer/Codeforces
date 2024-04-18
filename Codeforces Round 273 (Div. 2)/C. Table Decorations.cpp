@@ -1,6 +1,6 @@
 /**
- * Source: is.gd/yJSrnx
- * Date: 2024/4/13
+ * Source: is.gd/lZyx4T
+ * Date: 2024/4/18
  * Time:
  * Space:
  * Skill:
@@ -28,8 +28,6 @@
 #define ll long long
 using namespace std;
 
-
-const int MX = 30;
 
 void solve() {
     ll r, g, b;

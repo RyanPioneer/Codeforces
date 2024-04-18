@@ -14,6 +14,10 @@
 
 [750F1 Korney Korneevich and XOR (easy version)](https://codeforces.com/problemset/problem/1582/F1) (1800)
 
+[336B Zuma](https://codeforces.com/problemset/problem/607/B) (1900)
+
+[319B Modulo Sum](https://codeforces.com/problemset/problem/577/B) (1900)
+
 
 
 ## Constructive algorithms
