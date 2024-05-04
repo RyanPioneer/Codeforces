@@ -1,8 +1,16 @@
 
-[	cpp:S1481 "unused variable 'MX'(ŠËÔÚûÿÿÿÿ8ä¹‰ï1J$ca13a22a-85e3-4ad1-9c11-744cdbe90f3a
-w	cpp:S1659#"0Define each identifier in a dedicated statement.(úéŠûÿÿÿÿ8É«®‰ï1J$e8adee22-f8df-47f9-a7ba-5669a0156201
-_	cpp:S5825"CDefine the type with "typedef" or "using" instead of using a macro.(úÇŞ“8¡š¾‰ï1
-p	cpp:S59553")Declare the variable "t" inside the loop.(Àš¬ğùÿÿÿÿ8¯ä¹‰ï1J$115fa683-47ee-4db4-99bb-7c606ceff437
-v	cpp:S5820/"/Convert this integer literal to a bool literal.(¼½Ä™üÿÿÿÿ8¨ïŒªí1J$87735461-eee1-481d-8dc9-b69e9e692cea
-a	cpp:S49620"Use the "nullptr" literal.(÷Âüÿÿÿÿ8¹›£í1J$d5c48fe3-0555-4db7-846e-c61dfe833301
-\	cpp:S49621"Use the "nullptr" literal.(ŠøÅ¬8©ïŒªí1J$12e07d1a-de73-49dd-af2b-3910ff718623
+œ	cpp:S5276""Uimplicit conversion turns floating-point number into integer: 'double' to 'const int'(ü«ĞÒùÿÿÿÿ8ØÖÄšô1J$a2f6b0b5-f71b-4fa9-8532-3a88ff4dcbdd
+™	cpp:S5276<"Wimplicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'(‘Áš8ØÖÄšô1J$ae26ba87-f48e-4d41-bb6b-5bd934fae377
+‚	cpp:S5416";"using" should be preferred to "typedef" for type aliasing.(¥éÆ©øÿÿÿÿ8êÖÄšô1J$cbe794e6-8d6b-4f44-85d6-41f945e2552d
+}	cpp:S5416";"using" should be preferred to "typedef" for type aliasing.(û¾ïÅ8êÖÄšô1J$01c6f63b-fbd8-49c8-9e4e-05c8e090c4e9
+›	cpp:S3776$"TRefactor this function to reduce its Cognitive Complexity from 34 to the 25 allowed.(æ„şƒüÿÿÿÿ8ëÖÄšô1J$587ec32c-ffd1-4ecd-9199-408552da0870
+cpp:S134J"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(¯ è±8ìÖÄšô1J$16c04ae7-ed77-432b-9abd-9294ae1fefac
+cpp:S134M"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(€ÆÑü8ìÖÄšô1J$b6289134-8a99-44f7-a671-cd893c2e9464
+w	cpp:S1659'"0Define each identifier in a dedicated statement.(¤”»¦úÿÿÿÿ8ìÖÄšô1J$4ecd6865-5757-4171-bb08-ea287373e07d
+„	cpp:S5945'"=Use "std::array" or "std::vector" instead of a C-style array.(¤”»¦úÿÿÿÿ8õÖÄšô1J$15015eba-6f1a-46f0-affd-234b0add5b28
+„	cpp:S5945'"=Use "std::array" or "std::vector" instead of a C-style array.(¤”»¦úÿÿÿÿ8õÖÄšô1J$0ad1ce39-27f1-4908-ab67-5a248057f34d
+„	cpp:S5945'"=Use "std::array" or "std::vector" instead of a C-style array.(¤”»¦úÿÿÿÿ8õÖÄšô1J$9a45de4e-5e84-4c65-9cac-636485d2e072
+`	cpp:S6171@"Use "contains" member function.(¡áË8øÖÄšô1J$a1388af7-6594-4f33-a7e6-8aac7bd99088
+v	cpp:S5820_"/Convert this integer literal to a bool literal.(¼½Ä™üÿÿÿÿ8ıÖÄšô1J$cd358415-fb9d-4411-8ddc-c6d34b74b448
+a	cpp:S4962`"Use the "nullptr" literal.(÷Âüÿÿÿÿ8ıÖÄšô1J$dc28ff97-5edf-4095-b623-5a90fd63ff76
+\	cpp:S4962a"Use the "nullptr" literal.(ŠøÅ¬8şÖÄšô1J$942645ca-91cb-4dd2-a87f-ce658f45204d

@@ -3,7 +3,7 @@
  * Date: 2024/4/18
  * Time:
  * Space:
- * Skill:
+ * Skill:   把多于n个的物体放到n个抽屉里，则至少有一个抽屉里的东西不少于两件。
  * Constraints:
  *
  */
@@ -28,14 +28,30 @@
 #define ll long long
 using namespace std;
 
-const int MX = 510;
+const int MX = 1e3+10;
 
 void solve() {
     int n, m;
     cin >> n >> m;
     vector<int> a(n);
-    for (auto &i: a) cin >> i;
-
+    for (auto &i: a) {
+        cin >> i;
+        i %= m;
+    }
+    if (n > m) {
+        cout << "YES" << endl;
+        return;
+    }
+    bool dp[MX][MX];
+    fill(dp[0], dp[MX - 1] + MX, false);
+    for (int i = 1; i <= n; i++) {
+        dp[i][a[i - 1]] = true;
+        for (int j = 0; j < m; j++) {
+            dp[i][(a[i - 1] + j) % m] |= dp[i - 1][(a[i - 1] + j) % m];
+            dp[i][(a[i - 1] + j) % m] |= dp[i - 1][j];
+        }
+    }
+    cout << (dp[n][0] ? "YES" : "NO") << endl;
 }
 
 int main() {

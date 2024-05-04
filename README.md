@@ -38,6 +38,10 @@
 
 [Codeforces Global Round 8D AND, OR and square sum](https://codeforces.com/contest/1368) (1700)
 
+[940D A BIT of an Inequality](https://codeforces.com/problemset/problem/1957/D) (1900)
+
+[764G MinOr Tree](https://codeforces.com/problemset/problem/1624/G) (1900)
+
 
 
 ## Segment tree
@@ -68,9 +72,16 @@
 
 [666B Stoned Game](https://codeforces.com/problemset/problem/1396/B) (1800)
 
+[Bubble Cup 14E. Array Game](https://codeforces.com/contest/1600) (1900)
+
 
 
 ## Math
 
 [Educational Codeforces Round 83D Count the Arrays](https://codeforces.com/contest/1312) (1700)
 
+
+
+## Linked list
+
+[Educational Codeforces Round 161D Berserk Monsters](https://codeforces.com/contest/1922/problem/D) (1900)
