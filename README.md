@@ -18,6 +18,26 @@
 
 [319B Modulo Sum](https://codeforces.com/problemset/problem/577/B) (1900)
 
+[Educational Codeforces Round 8144D Maximum Subarray](https://codeforces.com/problemset/problem/1796/D) (2000)
+
+
+
+## Graph
+
+[891G Counting Graphs](https://codeforces.com/problemset/problem/1857/G) (2000)
+
+
+
+* ``Least common ancestor`` 
+
+  * Binary lifting
+
+    [629E Tree Queries](https://codeforces.com/problemset/problem/1328/E) (1900)
+
+
+
+
+
 
 
 ## Constructive algorithms
@@ -80,8 +100,19 @@
 
 [Educational Codeforces Round 83D Count the Arrays](https://codeforces.com/contest/1312) (1700)
 
+[891G Counting Graphs](https://codeforces.com/problemset/problem/1857/G) (2000)
+
 
 
 ## Linked list
 
 [Educational Codeforces Round 161D Berserk Monsters](https://codeforces.com/contest/1922/problem/D) (1900)
+
+
+
+## Trie
+
+[673C XOR Inverse](https://codeforces.com/problemset/problem/1416/C) (2000)
+
+
+
