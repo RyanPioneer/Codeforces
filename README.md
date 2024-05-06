@@ -102,6 +102,8 @@
 
 [891G Counting Graphs](https://codeforces.com/problemset/problem/1857/G) (2000)
 
+[913E Good Triples](https://codeforces.com/problemset/problem/1907/E) (1600)
+
 
 
 ## Linked list

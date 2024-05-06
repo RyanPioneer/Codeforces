@@ -1,5 +1,5 @@
 /**
- * Source: t.ly/XH9TR
+ * Source: t.ly/dVO8j
  * Date: 2024/5/6
  * Time:
  * Space:
@@ -30,13 +30,23 @@ using namespace std;
 typedef pair<int, int> PII;
 typedef pair<ll, int> PLI;
 
-const int MX = 2e5+2;
+const int MX = 1e5+2;
 
 
 void solve() {
-    ll n;
-    cin >> n;
-    ll arr[MX];
+    int n, q;
+    cin >> n >> q;
+    ll nums[MX], cnt[31];
+    for (int i = 0; i < n; i++) {
+        cin >> nums[i];
+        int j = nums[i];
+        for
+    }
+
+    for (int i = 0; i < q; i++) {
+        ll k;
+        cin >> k;
+    }
 }
 
 int main() {
@@ -44,7 +54,7 @@ int main() {
     cin.tie(0);
     cout.tie(0);
     int t;
-    for (cin >> t; t; t--) {
+    for (t = 1; t; t--) {
         solve();
     }
 }

@@ -1,5 +1,5 @@
 /**
- * Source: t.ly/XH9TR
+ * Source: t.ly/4iz28
  * Date: 2024/5/6
  * Time:
  * Space:
@@ -34,9 +34,14 @@ const int MX = 2e5+2;
 
 
 void solve() {
-    ll n;
+    ll n, res = 0;
     cin >> n;
-    ll arr[MX];
+    while (n) {
+        int d = n % 10;
+        n /= 10;
+        res *= (d + 2) * (d + 1) / 2;
+    }
+    cout << res << endl;
 }
 
 int main() {
