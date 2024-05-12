@@ -22,6 +22,14 @@
 
 
 
+* ``數位dp`` 
+
+  [810C XOR Triangle](https://codeforces.com/problemset/problem/1710/C) (2500)
+
+
+
+
+
 ## Graph
 
 [891G Counting Graphs](https://codeforces.com/problemset/problem/1857/G) (2000)
@@ -62,6 +70,8 @@
 
 [764G MinOr Tree](https://codeforces.com/problemset/problem/1624/G) (1900)
 
+[943F Equal XOR Segments](https://codeforces.com/problemset/problem/1968/F) (1800)
+
 
 
 ## Segment tree
@@ -73,6 +83,8 @@
 ## Binary search
 
 [881E Tracking Segments](https://codeforces.com/contest/1843/problem/E) (1600)
+
+[943F Equal XOR Segments](https://codeforces.com/problemset/problem/1968/F) (1800)
 
 
 
