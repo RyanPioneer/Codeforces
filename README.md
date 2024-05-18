@@ -20,6 +20,8 @@
 
 [Educational Codeforces Round 8144D Maximum Subarray](https://codeforces.com/problemset/problem/1796/D) (2000)
 
+[801C Zero Path](https://codeforces.com/problemset/problem/1695/C) (1700)
+
 
 
 * ``數位dp`` 
@@ -43,6 +45,10 @@
     [629E Tree Queries](https://codeforces.com/problemset/problem/1328/E) (1900)
 
 
+
+## Tree
+
+[937F 0, 1, 2, Tree!](https://codeforces.com/problemset/problem/1950/F) (1700)
 
 
 

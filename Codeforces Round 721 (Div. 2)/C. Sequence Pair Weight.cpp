@@ -1,5 +1,5 @@
 /**
- * Source: t.ly/3QsfI
+ * Source: t.ly/2HbIh
  * Date: 2024/5/18
  * Time:
  * Space:
@@ -28,37 +28,32 @@ using namespace std;
 #define ll long long
 #define SZ(X) ((int)(X).size())
 #define For(i, a, b) for (int i = (a); i <= (b); i++)
-#define Rep(i, a, b) for (int i = (a); i >= (b); i--)
 typedef pair<int, int> PII;
 typedef pair<ll, int> PLI;
 
-
-const int MX = 3e5+10;
-ll arr[MX];
+const int MX = 1e5+10;
 
 
 void solve() {
+    int n, a;
+    cin >> n;
+    unordered_map<int, vector<int>> cnt;
+    For(i,0,n-1) {
+        cin>>a;
+        cnt[a].push_back(i);
+    }
     ll res = 0;
-    ll n, mx = 0;
-    cin>>n;
-    For(i,1,n) {
-        cin>>arr[i];
-        mx = max(mx, arr[i]);
-    }
-    ll one = 0, two = 0;
-    For(i,1,n) {
-        res += (mx - arr[i]) / 3 * 2;
-        if ((mx - arr[i]) % 3 == 1) one++;
-        if ((mx - arr[i]) % 3 == 2) two++;
-    }
-    ll mi = min(one, two);
-    res += mi * 2;
-    one -= mi;
-    two -= mi;
-    if (one > 0) {
-        res += one * 2 - 1;
-    } else {
-        res += two * 2;
+    for (auto &i: cnt) {
+        vector<int> &v = i.second;
+        if (v.size() == 1) continue;
+        ll right = 0;
+        for (auto &j: v) {
+            right += n - j;
+        }
+        for (auto &j: v) {
+            right -= n - j;
+            res += right * (j + 1);
+        }
     }
     cout << res << endl;
 }

@@ -41,6 +41,7 @@ void solve() {
     ll res = 0;
     ll n, mx = 0;
     cin>>n;
+    cin>>n;
     For(i,1,n) {
         cin>>arr[i];
         mx = max(mx, arr[i]);
