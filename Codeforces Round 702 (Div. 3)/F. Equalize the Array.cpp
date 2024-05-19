@@ -1,6 +1,6 @@
 /**
- * Source: t.ly/3QsfI
- * Date: 2024/5/18
+ * Source: t.ly/nnPBD
+ * Date: 2024/5/19
  * Time:
  * Space:
  * Skill:
@@ -33,32 +33,32 @@ typedef pair<int, int> PII;
 typedef pair<ll, int> PLI;
 
 
-const int MX = 3e5+10;
-ll arr[MX];
+const int MX = 2e5+10;
 
 
 void solve() {
-    ll res = 0;
-    ll n, mx = 0;
+    ll res=LLONG_MAX/2;
+    ll n;
     cin>>n;
-    For(i,1,n) {
-        cin>>arr[i];
-        mx = max(mx, arr[i]);
+    map<int,int> mp;
+    for (int i=0, j; i<n; i++) {
+        cin>>j;
+        mp[j]++;
     }
-    ll one = 0, two = 0;
-    For(i,1,n) {
-        res += (mx - arr[i]) / 3 * 2;
-        if ((mx - arr[i]) % 3 == 1) one++;
-        if ((mx - arr[i]) % 3 == 2) two++;
-    }
-    ll mi = min(one, two);
-    res += mi * 2;
-    one -= mi;
-    two -= mi;
-    if (one > 0) {
-        res += one * 2 - 1;
-    } else {
-        res += two * 2;
+    vector<ll> v;
+    for (auto &i: mp) v.push_back(i.second);
+    ll sz = SZ(v);
+    sort(begin(v), end(v));
+    ll presum = 0, total = accumulate(begin(v), end(v), 0ll);
+    for (int i = 0; i < sz; i++) {
+        res = min(res, total - v[i] * (sz-i) + presum);
+        total -= v[i];
+        presum += v[i];
+        while (i+1 < sz && v[i] == v[i+1]) {
+            total -= v[i];
+            presum += v[i];
+            i++;
+        }
     }
     cout << res << endl;
 }
