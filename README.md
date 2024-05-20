@@ -104,6 +104,8 @@
 
 [806G Good Key, Bad Key](https://codeforces.com/contest/1703/problem/G) (1600)
 
+[869A Almost Increasing Subsequence](https://codeforces.com/problemset/problem/1817/A) (1500)
+
 
 
 ## Games
@@ -130,9 +132,24 @@
 
 
 
+## Two pointers
+
+[797E Price Maximization](https://codeforces.com/problemset/problem/1690/E) (1500)
+
+
+
 ## Trie
 
 [673C XOR Inverse](https://codeforces.com/problemset/problem/1416/C) (2000)
 
 
 
+## Prefix sum
+
+[869A Almost Increasing Subsequence](https://codeforces.com/problemset/problem/1817/A) (1500)
+
+
+
+## Thinking
+
+[668A Balanced Bitstring](https://codeforces.com/problemset/problem/1404/A) (1500)
